@@ -32,10 +32,7 @@ Calling the function and Printing the number of words.
 ```
 #Program to find the word count.
 #Developed by: Azeez Ahamad
-#RegisterNumber: 23003977
-
-
-
+#RegisterNumber:23003977
 num_word=0
 with open ("sample.txt",'r') as f:
 for i in f:
@@ -46,12 +43,6 @@ print("number of words ={}".format(num_word)
 
 ### OUTPUT:
 ![image](https://github.com/22002102/Word-count/assets/119091638/f2b73ec4-1e44-40e9-8a92-53490afb83bb)
-
-
-
-
-
-
 
 
 
