@@ -33,22 +33,17 @@ Calling the function and Printing the number of words.
 #Program to find the word count.
 #Developed by: Azeez Ahamad
 #RegisterNumber:23003977
-num_word=0
-with open ("sample.txt",'r') as f:
-for i in f:
-word=i.split()
-num_word+=len(word)
-print("number of words ={}".format(num_word)
+num_words =0
+with open('text.txt','r') as file1:
+ for i in file1:
+ word =i.split()
+ num_words += len(word)
+print("Number of words={}".format(num_words))
 ```
 
 ### OUTPUT:
-![image](https://github.com/22002102/Word-count/assets/119091638/f2b73ec4-1e44-40e9-8a92-53490afb83bb)
+![image](https://github.com/AzeezBT/Word-count/assets/150319523/b1a4367b-f07a-4f9f-bb71-9c4c9ce83592)
 
-
-
-
-
-![image](https://github.com/22002102/Word-count/assets/119091638/1b6cd6d3-fe3b-4d28-b5bc-0bb606a02c32)
 
 
 
